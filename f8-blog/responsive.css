@@ -1,0 +1,148 @@
+/* Responsive Tablet and Mobile */
+@media (max-width: 1024px){
+    
+    .body-contact .send,
+    .form-control,
+    .respon{
+        padding: 15px;
+    }
+    .info-contact{
+        line-height: 35px;
+    }
+    .wrapper-footer{
+        padding: 64px 0px;
+    }
+    .icon-social{
+        padding: 0px 15px;
+    }
+    .copyright{
+        margin-top: 25px;
+    }
+    .wrapper-footer a{
+        text-decoration: underline;
+        padding: 15px 5px;
+    }
+}
+/* Responsive Tablet */
+
+@media (min-width: 740px) and (max-width: 1023px){
+    .list-homestay{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .body-contact{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .mobile-ful{
+        width: 100% !important;
+    }
+    .info-contact{
+        line-height: 35px;
+    }
+    .content-section{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+/* End Responsive Tablet */
+
+
+/* Responsive Mobile */
+
+@media (max-width: 739px){
+    .mt-16{
+        margin-top: 16px !important; 
+    }
+    .wrapper-header{
+        overflow: hidden;
+    }
+    /* Nav Mobile */
+    .nav-mobile{
+        display: inline-block;
+    }
+    .navigation > ul{
+        display: block;
+    }
+    .navigation ul li{
+        display: block;
+    }
+    .navigation ul li a {
+        display: block;
+    }
+    .sub-nav{
+        position: initial;
+        box-shadow: none;
+    }
+    .search{
+        display: none;
+    }
+    .blog{
+        display: block;
+        font-family: 'Ma Shan Zheng', cursive;
+    }
+    .icon-menu{
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+    /* End Nav Mobile */
+
+    /* Responsive Layout */
+    .list-homestay{
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .body-contact{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .info-contact{
+        line-height: 30px;
+    }
+    .content-section{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    /* End Responsive Layout */
+
+    /* Repair Font Slider */
+    .wrapper-slider .text-slider{
+        bottom: 0;
+    }
+    .wrapper-slider .text-heading{
+        font-size: 20px;
+    }
+    /* End Repair Font Slider */
+
+    /* Travel */
+    .content-section .location-item{
+        float: none;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .content-section .img-address{
+        width: 90%;
+    }
+    /* End Travel */
+
+    /* Book Ticket */
+    .homestay{
+        float: none;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .homestay .img-homestay{
+        height: 250px;
+    }
+    /* End Book Ticket */
+
+    /* Contact */
+    .mobile-ful,
+    .mobile-col-ful{
+        width: 100% !important;
+    }
+    /* End Contact */
+}
+
+/* End Responsive Mobile */
