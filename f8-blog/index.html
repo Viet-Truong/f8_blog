@@ -2,13 +2,14 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="/f8-blog/font-icon/themify-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -193,52 +194,6 @@
             </div>
         </div>
     </div>
-    <!-- JS MODAL -->
-    <script>
-        const buttons = document.querySelectorAll('.js-rent')
-        const modal = document.querySelector('.js-modal')
-        const closeModal = document.querySelector('.js-close-modal')
-        const wrapperModal = document.querySelector('.js-wrapper-modal')
-
-
-        function showModal () {
-            modal.classList.add('open');
-        };
-
-        function hideModal() {
-            modal.classList.remove('open');
-        };
-        for(const button of buttons){
-        button.addEventListener('click', showModal)
-        };
-        closeModal.addEventListener('click', hideModal);
-        modal.addEventListener('click', hideModal);
-        wrapperModal.addEventListener('click', function(event) {
-            event.stopPropagation();
-        })
-    </script>
-    <!-- JS NAV -->
-    <script>
-        const header = document.querySelector('.js-header');
-        const navMobile = document.querySelector('.js-nav-mobile');
-        const menuItems = document.querySelectorAll('.navigation ul li a[href*="#"]');
-        var heightHeader = header.clientHeight;
-        function mobileMenu(){
-            var isClosed = header.clientHeight === heightHeader;
-            if(isClosed) {
-                header.style.height = 'auto';
-            }else{
-                header.style.height = null;
-            }
-        }
-        navMobile.addEventListener('click', mobileMenu);
-        for(var i = 0; i<menuItems.length;  i++){
-            var menuItem = menuItems[i];
-            function closeMenu(){
-                header.style.height = null;
-            }
-            menuItem.addEventListener('click', closeMenu);
-        }
-    </script>
+    <script src="./main.js"></script>
 </body>
 </html>
