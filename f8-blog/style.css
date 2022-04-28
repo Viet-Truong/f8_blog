@@ -118,7 +118,7 @@ html{
 .wrapper-slider{
     margin-top: 50px;
     padding-top: 50%;
-    background: url(/img/slider/slider-1.jfif) top center / cover no-repeat;
+    background: url(img/slider/slider-1.jfif) top center / cover no-repeat;
     position: relative;
 }
 .wrapper-slider .text-slider{
